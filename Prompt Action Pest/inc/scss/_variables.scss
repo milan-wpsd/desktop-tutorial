@@ -1,0 +1,175 @@
+/* --------------------------------------------------------------
+ >> THEME VARIABLES
+ Dependencies: _functions.scss
+-------------------------------------------------------------- */
+/* Fonts */
+/* source-sans-3-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/source-sans-3-v18-latin-regular.eot');
+  src: url('../fonts/source-sans-3-v18-latin-regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/source-sans-3-v18-latin-regular.woff2') format('woff2'),
+       url('../fonts/source-sans-3-v18-latin-regular.woff') format('woff'),
+       url('../fonts/source-sans-3-v18-latin-regular.ttf') format('truetype'),
+       url('../fonts/source-sans-3-v18-latin-regular.svg#SourceSans3') format('svg');
+}
+/* source-sans-3-500 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/source-sans-3-v18-latin-500.eot');
+  src: url('../fonts/source-sans-3-v18-latin-500.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/source-sans-3-v18-latin-500.woff2') format('woff2'),
+       url('../fonts/source-sans-3-v18-latin-500.woff') format('woff'),
+       url('../fonts/source-sans-3-v18-latin-500.ttf') format('truetype'),
+       url('../fonts/source-sans-3-v18-latin-500.svg#SourceSans3') format('svg');
+}
+/* source-sans-3-600 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/source-sans-3-v18-latin-600.eot');
+  src: url('../fonts/source-sans-3-v18-latin-600.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/source-sans-3-v18-latin-600.woff2') format('woff2'),
+       url('../fonts/source-sans-3-v18-latin-600.woff') format('woff'),
+       url('../fonts/source-sans-3-v18-latin-600.ttf') format('truetype'),
+       url('../fonts/source-sans-3-v18-latin-600.svg#SourceSans3') format('svg');
+}
+/* source-sans-3-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/source-sans-3-v18-latin-700.eot');
+  src: url('../fonts/source-sans-3-v18-latin-700.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/source-sans-3-v18-latin-700.woff2') format('woff2'),
+       url('../fonts/source-sans-3-v18-latin-700.woff') format('woff'),
+       url('../fonts/source-sans-3-v18-latin-700.ttf') format('truetype'),
+       url('../fonts/source-sans-3-v18-latin-700.svg#SourceSans3') format('svg');
+}
+
+/* poppins-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/poppins-v23-latin-regular.eot');
+  src: url('../fonts/poppins-v23-latin-regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/poppins-v23-latin-regular.woff2') format('woff2'),
+       url('../fonts/poppins-v23-latin-regular.woff') format('woff'),
+       url('../fonts/poppins-v23-latin-regular.ttf') format('truetype'),
+       url('../fonts/poppins-v23-latin-regular.svg#Poppins') format('svg');
+}
+/* poppins-500 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/poppins-v23-latin-500.eot');
+  src: url('../fonts/poppins-v23-latin-500.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/poppins-v23-latin-500.woff2') format('woff2'),
+       url('../fonts/poppins-v23-latin-500.woff') format('woff'),
+       url('../fonts/poppins-v23-latin-500.ttf') format('truetype'),
+       url('../fonts/poppins-v23-latin-500.svg#Poppins') format('svg');
+}
+/* poppins-600 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/poppins-v23-latin-600.eot');
+  src: url('../fonts/poppins-v23-latin-600.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/poppins-v23-latin-600.woff2') format('woff2'),
+       url('../fonts/poppins-v23-latin-600.woff') format('woff'),
+       url('../fonts/poppins-v23-latin-600.ttf') format('truetype'),
+       url('../fonts/poppins-v23-latin-600.svg#Poppins') format('svg');
+}
+/* poppins-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/poppins-v23-latin-700.eot');
+  src: url('../fonts/poppins-v23-latin-700.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/poppins-v23-latin-700.woff2') format('woff2'),
+       url('../fonts/poppins-v23-latin-700.woff') format('woff'),
+       url('../fonts/poppins-v23-latin-700.ttf') format('truetype'),
+       url('../fonts/poppins-v23-latin-700.svg#Poppins') format('svg');
+}
+/* poppins-800 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/poppins-v23-latin-800.eot');
+  src: url('../fonts/poppins-v23-latin-800.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/poppins-v23-latin-800.woff2') format('woff2'),
+       url('../fonts/poppins-v23-latin-800.woff') format('woff'),
+       url('../fonts/poppins-v23-latin-800.ttf') format('truetype'),
+       url('../fonts/poppins-v23-latin-800.svg#Poppins') format('svg');
+}
+
+
+
+/* Breakpoints */
+$bp-sm: 576px;
+$bp-md: 768px;
+$bp-lg: 992px;
+$bp-xl: 1200px;
+$bp-xxl: 1400px;
+
+/* Units + Spacing */
+$base-unit: 16px;
+
+$spacer-xxl: calc($base-unit * 8); /* 192px */
+$spacer-xl: calc($base-unit * 6); /* 128px */
+$spacer-lg: calc($base-unit * 4); /* 96px */
+$spacer: calc($base-unit * 3); /* 64px */
+$spacer-md: calc($base-unit * 2.25); /* 48px */
+$spacer-sm: calc($base-unit * 1.75); /* 38px */
+$spacer-xs: calc($base-unit * 1.25); /* 24px */
+$spacer-xxs: $base-unit; /* 16px */
+
+/* These variables are used to setup the height of our fixed header */
+$header: calc($base-unit * 6.25);
+/* We compensate for header overlap by using this variable for top padding/margin */
+$header-comp: calc($header * 1.5);
+
+/* Setup font families here and adjust font weights as needed */
+$headlines: 'Poppins', sans-serif;
+$body: 'Source Sans 3', sans-serif; 
+$font-weight-300: 300;
+$font-weight-400: 400;
+$font-weight-500: 500;
+$font-weight-600: 600;
+$font-weight-700: 700;
+$font-weight-800: 800;
+$font-weight-900: 900;
+
+/* Set up custom variables for brand colors */
+$brand-primary: #012D3D;
+$brand-secondary: #447A88;
+$white: #ffffff;
+$black: #000000;
+$gray: #F5F7F9;
+$ui-gray: #ECF8FD;
+
+$linear-gradient: linear-gradient(90deg, #FFF 0%, #ECF8FD 100%); 
+
+
+$box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.12);
+$box-shadow-small: 0px 1px   0px rgba(0, 0, 0, 0.10);
+$box-shadow_large: 0px 3px 8px 0px rgba(0, 0, 0, 0.15);
